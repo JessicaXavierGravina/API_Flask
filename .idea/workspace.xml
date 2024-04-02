@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baf3b9b4-c601-4f27-b0d0-4613fd77c8a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/case.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/entities/check_ins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/repository/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/repository/attendees_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/repository/attendees_repository_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/repository/check_ins_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/repository/events_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/repository/events_repository_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/settings/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="baf3b9b4-c601-4f27-b0d0-4613fd77c8a5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
