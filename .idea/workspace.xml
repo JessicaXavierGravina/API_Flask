@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baf3b9b4-c601-4f27-b0d0-4613fd77c8a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/routes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/routes/attendees_routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/routes/check_in_routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/routes/event_routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/server/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/server/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/http_types/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/http_types/http_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/http_types/http_response.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
