@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="baf3b9b4-c601-4f27-b0d0-4613fd77c8a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/event_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/errors/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/errors/error_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/errors/error_types/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/errors/error_types/http_conflict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/errors/error_types/http_not_found.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/attendees_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/attendees_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/check_in_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/check_in_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/event_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/event_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/routes/attendees_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/attendees_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/routes/check_in_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/check_in_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/routes/event_routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/event_routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/repository/attendees_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/repository/attendees_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/repository/check_ins_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/repository/check_ins_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/repository/events_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/repository/events_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage.db" beforeDir="false" afterPath="$PROJECT_DIR$/storage.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.app.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "SQL"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;SQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_API" />

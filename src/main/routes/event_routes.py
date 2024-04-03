@@ -3,6 +3,7 @@ from src.http_types.http_request import HttpRequest
 from src.data.event_handler import EventHandler
 from src.errors.error_handler import handle_error
 
+
 event_route_bp = Blueprint("event_route", __name__)
 
 @event_route_bp.route("/events", methods=["POST"])

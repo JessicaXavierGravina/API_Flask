@@ -6,6 +6,7 @@ from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm.exc import NoResultFound
 from src.errors.error_types.http_conflict import HttpConflictError
 
+
 class EventsRepository:
     def insert_event(self, eventsInfo: Dict) -> Dict:
         with db_connection_handler as database:
@@ -27,6 +28,7 @@ class EventsRepository:
                 database.session.rollback()
                 raise exception
 
+
     def get_event_by_id(self, event_id: str) -> Events:
         with db_connection_handler as database:
             try:
@@ -39,6 +41,7 @@ class EventsRepository:
                 return event
             except NoResultFound:
                 return None
+
 
     def count_event_attendees(self, event_id: str) -> Dict:
         with db_connection_handler as database:

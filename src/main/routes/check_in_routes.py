@@ -3,6 +3,7 @@ from src.http_types.http_request import HttpRequest
 from src.data.check_in_handler import CheckInHandler
 from src.errors.error_handler import handle_error
 
+
 check_in_route_bp = Blueprint("check_in_route", __name__)
 
 @check_in_route_bp.route("/attendees/<attendee_id>/check-in", methods=["POST"])

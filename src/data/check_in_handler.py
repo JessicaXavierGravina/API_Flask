@@ -7,6 +7,7 @@ class CheckInHandler:
     def __init__(self) -> None:
         self.__check_in_respository = CheckInRepository()
 
+
     def registry(self, http_request: HttpRequest) -> HttpResponse:
         check_in_infos = http_request.param["attendee_id"]
         self.__check_in_respository.insert_check_in(check_in_infos)

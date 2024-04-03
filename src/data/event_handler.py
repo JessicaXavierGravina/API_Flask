@@ -4,9 +4,11 @@ from src.http_types.http_request import HttpRequest
 from src.http_types.http_response import HttpResponse
 from src.errors.error_types.http_not_found import HttpNotFoundError
 
+
 class EventHandler:
     def __init__(self) -> None:
         self.__events_repository = EventsRepository()
+
 
     def register(self, http_request: HttpRequest) -> HttpResponse:
         body = http_request.body
@@ -17,6 +19,7 @@ class EventHandler:
             body={ "eventId": body["uuid"] },
             status_code=200
         )
+
 
     def find_by_id(self, http_request: HttpRequest) -> HttpResponse:
         event_id = http_request.param["event_id"]
